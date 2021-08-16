@@ -20,6 +20,7 @@ elif opcao == 4:
     valorPagar = preco * 1.2
     print(f'Sua compra será parcelada em {parcelas}x de R$ {valorPagar / parcelas:.2f} COM JUROS')
 else:
+    valorPagar = preco
     print('\033[31mOPÇÃO INVÁLIDA!\033[m')
 
 #saida

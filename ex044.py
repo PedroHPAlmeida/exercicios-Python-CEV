@@ -1,7 +1,7 @@
 #entrada
 preco = float(input('Valor do produto: R$ '))
 
-print('    FORMA DE PAGAMENTO')
+print('    FORMAS DE PAGAMENTO')
 print('''1 - À vista dinheiro/cheque
 2 - À vista no cartão
 3 - 2x no cartão

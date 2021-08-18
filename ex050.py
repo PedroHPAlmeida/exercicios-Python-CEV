@@ -7,4 +7,4 @@ for c in range(0, 6):
         cont += 1
         s += n
 #saida
-print(f'Você informou {cont} números PARES e a soma foi {s}')
+print(f'Você informou {cont} número(s) PAR(ES) e a soma foi {s}')

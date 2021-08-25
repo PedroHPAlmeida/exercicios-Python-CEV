@@ -5,6 +5,8 @@ fraseInvertida = str()
 #processamento
 frase = ''.join(frase)
 
+#fraseInvertida = frase[::-1] - Forma simples de inverter uma frase usando tecnicas de fatiamento 
+
 for i in range(len(frase) - 1, -1, -1):
     fraseInvertida = fraseInvertida + frase[i]
 
